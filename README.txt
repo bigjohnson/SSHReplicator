@@ -13,9 +13,9 @@ The files are:
 /etc/tunneling/keyok 	SSH private without password
 /sbin/tunneling/tunnel 	Common script part.
 /var/log/tunnelingX 	Serever connection log, differentiates between tunnels, to X is sobstituted the tunnel id,
-     auto generated.
+                         auto generated.
 /sbin/tunneling/tunnelX 	Symbolic link to the file /sbin/tunneling/tunnel to X is sobstituted tunnel id, auto 
-     generated.
+                         generated.
 /sbin/tunneling/miasshX 	Symbolic link to the ssh command, X is sobstituted with tunnel id.
 
 For build more port fowarding it's sufficient copy the file /etc/init.d/tunneling1 to /etc/init.d/tunneling2, 
